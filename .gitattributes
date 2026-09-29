@@ -1,0 +1,12 @@
+# Windows scripts must keep CRLF endings or cmd.exe can misbehave.
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# Source files stay LF to keep diffs stable across operating systems.
+*.py text eol=lf
+*.js text eol=lf
+*.md text eol=lf
+*.user.js text eol=lf
+
+# Binaries
+*.exe binary
